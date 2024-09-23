@@ -17,6 +17,9 @@ import FetchDataExample from './components/Hooks/FetchDataExample';
 import FormData from './components/Hooks/FormData';
 import Conditional from './components/Rendering/Conditional';
 import ParentComp from './components/Propss/MthodsAsProps/ParentComp';
+import List_Keys from './components/Rendering/List_Keys';
+import AddStyles from './components/Applying_styles/AddStyles';
+import Anti_Key_list from './components/Rendering/Anti_Key_list';
 
 class App extends React.Component{
   render(){
@@ -41,13 +44,18 @@ class App extends React.Component{
        {/* <Object/> */}
        {/* <ArrayHook/> */}
        {/* <UseEffects/> */}
-       <UseEffects2/>
+       {/* <UseEffects2/> */}
        {/* <FetchDataExample/> */}
        {/* <FormData/> */}
 
        {/* <Conditional/> */}
 
        {/* <ParentComp/> */}
+
+       {/* <List_Keys/> */}
+
+       {/* <AddStyles/> */}
+       <Anti_Key_list/>
       </div>
     )
   }
