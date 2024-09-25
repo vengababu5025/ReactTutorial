@@ -1,6 +1,5 @@
 import React from 'react'
 import './Styles.css'
-import Style from './Style.module.css'
 import styled from 'styled-components';
 
 
@@ -11,7 +10,9 @@ function AddStyles() {
         padding: '10px',
         borderRadius: '5px',
       };
-      const Button = styled.button`
+
+//using installed library(styled component) and writing the styles in jsx
+      const Button = styled.button` 
   background-color: green;
   color: white;
   padding: 10px;
@@ -26,7 +27,8 @@ function AddStyles() {
         <button className="button">click me</button><br></br>
         <button style={buttonStyle}>click me</button>
 
-        <button className={Style.button}>Click me</button>
+
+        <button style={{backgroundColor:"gray"}}>Click me</button>
 
         <Button>click me</Button>
     </div>

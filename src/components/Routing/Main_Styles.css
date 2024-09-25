@@ -1,0 +1,25 @@
+.nav-buttons {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+  }
+  
+  .nav-buttons button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-buttons button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .nav-buttons button a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Keep the link text white */
+  }
+  

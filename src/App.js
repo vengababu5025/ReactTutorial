@@ -20,6 +20,22 @@ import ParentComp from './components/Propss/MthodsAsProps/ParentComp';
 import List_Keys from './components/Rendering/List_Keys';
 import AddStyles from './components/Applying_styles/AddStyles';
 import Anti_Key_list from './components/Rendering/Anti_Key_list';
+import Fragmentss from './components/Fragments/Fragmentss';
+import Nav from './components/Routing/Nav'
+import About from './components/Routing/About'
+import Contact from './components/Routing/Contact'
+import Home from './components/Routing/Home'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Routing_Nav from './components/Routing_Nav';
+import Parent_memo from './components/Memos/Parent_memo';
+import Child_Memo from './components/Memos/Child_Memo';
+import Nested_Frags from './components/Fragments/Nested_Frags';
+import Hok_run_once from './components/Hooks/Hook_run_Once/Hok_run_once';
+import WillMount from './components/Hooks/WillMount';
+import MyComponent from './components/Hooks/MyComponent';
+import Wrongly_effect from './components/Hooks/Wrongly_effect';
+import UseEffect_Props from './components/Hooks/UseEffect_Prop/UseEffect_Props';
+
 
 class App extends React.Component{
   render(){
@@ -54,9 +70,31 @@ class App extends React.Component{
 
        {/* <List_Keys/> */}
 
-       {/* <AddStyles/> */}
-       <Anti_Key_list/>
+       <AddStyles/>
+       {/* <Anti_Key_list/> */}
+       {/* <Fragmentss/> */}
+       {/* <Nested_Frags/> */}
+
+        {/* <Parent_memo/>
+        <Child_Memo/> */}
+        {/* <Hok_run_once/> */}
+        {/* <WillMount/> */}
+        {/* <Wrongly_effect/> */}
+        {/* <UseEffect_Props/> */}
       </div>
+
+      
+      // <Router>
+      //   <div>
+      //     <Nav/>
+      //     <Routes>
+      //       <Route path='/' element={<Home/>}></Route>
+      //       <Route path='/About' element={<About/>}></Route>
+      //       <Route path='/Contact' element={<Contact/>}></Route>
+      //     </Routes>
+      //   </div>
+      // </Router>
+     
     )
   }
 }
