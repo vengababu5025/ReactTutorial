@@ -35,12 +35,23 @@ import WillMount from './components/Hooks/WillMount';
 import MyComponent from './components/Hooks/MyComponent';
 import Wrongly_effect from './components/Hooks/Wrongly_effect';
 import UseEffect_Props from './components/Hooks/UseEffect_Prop/UseEffect_Props';
+import Example1 from './components/Example/Example1';
+import Example2 from './components/Example/Example2';
+import Example3 from './components/Example/Example3/Example3';
+import Example4 from './components/Example/Example4';
+import Example5 from './components/Example/Example5';
+import Example6 from './components/Example/Example6';
+import Example7 from './components/Example/Example7';
+import Example8 from './components/Example/Example8';
+import Example9 from './components/Example/Example9';
+import Example10 from './components/Example/Example10';
+import Context from './components/Hooks/Context/Context';
 
 
 class App extends React.Component{
   render(){
     return(
-      <div className='App'>
+      <div >
         {/* <h1>functional component</h1>
         <Greet name="vengababu"/>
         <Greet name="Vinay"/> */}
@@ -49,7 +60,9 @@ class App extends React.Component{
         <GreetAsClass name="Vinod"/> */}
         {/* <Hello/> */}
         {/* <PropssFunctional name="vengababu" current_address="hyderabad" >
-          <p>Continue Your learning...</p>
+          <p>Continue Your learning...
+          </p>
+
         </PropssFunctional> */}
         {/* <PropssClasss name="vengababu" address="Nellore"/> */}
         {/* <DynamicChange/> */}
@@ -70,7 +83,7 @@ class App extends React.Component{
 
        {/* <List_Keys/> */}
 
-       <AddStyles/>
+       {/* <AddStyles/> */}
        {/* <Anti_Key_list/> */}
        {/* <Fragmentss/> */}
        {/* <Nested_Frags/> */}
@@ -81,6 +94,18 @@ class App extends React.Component{
         {/* <WillMount/> */}
         {/* <Wrongly_effect/> */}
         {/* <UseEffect_Props/> */}
+
+        {/* <Example1/> */}
+        {/* <Example2/> */}
+        {/* <Example3/> */}
+        {/* <Example4/> */}
+        {/* <Example5/> */}
+        {/* <Example6/> */}
+        {/* <Example7/> */}
+        {/* <Example8/> */}
+       {/* <Example9/> */}
+       {/* <Example10/> */}
+       <Context/>
       </div>
 
       
@@ -92,6 +117,7 @@ class App extends React.Component{
       //       <Route path='/About' element={<About/>}></Route>
       //       <Route path='/Contact' element={<Contact/>}></Route>
       //     </Routes>
+
       //   </div>
       // </Router>
      

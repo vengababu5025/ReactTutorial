@@ -5,7 +5,6 @@ import './Main_Styles.css'
 function Nav() {
     return (
         <nav>
-
             <div className="nav-buttons">
                 <button><Link to="/">Home</Link></button>
                 <button><Link to="/About">About</Link></button>
